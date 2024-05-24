@@ -1,0 +1,6 @@
+CREATE TABLE urls (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    long_url TEXT NOT NULL,
+    short_code VARCHAR(12) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
